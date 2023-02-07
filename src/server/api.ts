@@ -7,8 +7,4 @@ export const api = createAPI({
 			message: error.message,
 		};
 	},
-
-	getContext: async (req, res) => {
-		return {};
-	},
 });
